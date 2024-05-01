@@ -10,14 +10,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@langchain/community": "^0.0.32",
+    "@langchain/mistralai": "^0.0.9",
+    "@langchain/openai": "^0.0.23",
+    "langchain": "^0.1.21",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.4",
     "@types/node": "^20.12.7",
-    "ts-node": "^10.9.2",
-    "tslib": "^2.6.2",
-    "tsx": "^4.7.3",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "@ungap/with-resolvers": "^0.1.0",
+    "dotenv": "^16.4.5",
     "pdfjs-dist": "^4.1.392"
   }
 }
